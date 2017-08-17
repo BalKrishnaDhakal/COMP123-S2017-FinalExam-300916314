@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 /* Name: Bal Krishna Dhakal
  * Date: August 17, 2017
  * StudentID: 300916314
@@ -13,6 +14,12 @@ namespace COMP123_S2017_FinalExam_300916314
 {
     class ScoreBoard
     {
-        
+        // PRIVATE INSTANCE VARIABLES +++++++++++++++++++++++++++++++++++++++++++++
+
+
+        // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++++++
+        // CONSTRUCTORS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        // PRIVATE METHOD  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        // PUBLIC METHOD +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     }
 }
