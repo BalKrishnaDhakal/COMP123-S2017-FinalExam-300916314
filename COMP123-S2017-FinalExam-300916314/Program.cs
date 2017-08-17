@@ -9,7 +9,7 @@ using System.Windows.Forms;
  * Date: August 17, 2017
  * StudentID: 300916314
  * Description: Final Test Project 
- * Version: 0.1 Final Term Project Created
+ * Version: 0.2 SplashForm First is Created
  */
 
 namespace COMP123_S2017_FinalExam_300916314
@@ -24,7 +24,8 @@ namespace COMP123_S2017_FinalExam_300916314
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PickHighestCardForm());
+            // Application.Run(new PickHighestCardForm());
+            Application.Run(new SplashForm());
         }
     }
 }
