@@ -10,13 +10,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
- */
+ * Name: Bal Krishna Dhakal
+ * Date: August 17, 2017
+ * StudentID: 300916314
+ * Description: Final Test Project 
+ * Version: 0.1 PickHighestCardForm Closing Method is Created is Created
+ */ 
 
 namespace COMP123_S2017_FinalExam_300916314
 {
@@ -394,6 +395,15 @@ namespace COMP123_S2017_FinalExam_300916314
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        /// <summary>
+        /// This is the Form Closing Method
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PickHighestCardForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
